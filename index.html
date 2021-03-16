@@ -1,0 +1,230 @@
+<!-- LU development-->
+<!DOCTYPE html>
+<html lang="en" class=" js no-touch">
+
+<head>
+  <title>LU DEVELOPMENT</title>
+  <!--Using bootstraps and css style from free online sources as it is obvious on their name to make html look better  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/slick-team-slider.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+  <!--HEADER START-->
+  <div class="main-navigation navbar-fixed-top">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+          <a class="navbar-brand" href="index.html">LU DEVELOPMENT</a>  
+             <img class=" image "src="img/logo.png"alt="about us">
+        </div>
+        <!-- Icon bars for top menu  -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#banner">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#walk">WalkThrough</a></li>
+            <li><a href="#tutorial">Tutorial</a></li>  
+            <li><a href="#convert" style="font-size: 20px">Convert</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--HEADER END-->
+
+  <!--BANNER START-->
+  <div id="banner" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <br><br><br><br>
+          <h1 class="small"><span class="bold">WELCOME!</span></h1>
+
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--BANNER END-->
+
+    <!--SERVICE START-->
+    <div id="service" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="page-title text-center">
+            <h1>Our Service</h1>
+            <p>LU Development explains everything about our page in here to not leave anything confusing  <br> You can look at our steps and follow
+               them to have your file converted. </p>
+            <hr class="pg-titl-bdr-btm"></hr>
+          </div>
+          <!-- Explanation on each column -->
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-icon"><i class="fa fa-picture-o"></i></div>
+              <div class="service-text">
+                <h3>Tutorial</h3>
+                <p> We do not like our clients be left out alone in our website.<br>
+                  Instead, we want to make sure that we are with them in all steps.<br>
+                So we provided a tutorial that can help clients to see what json file is</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-icon"><i class="fa fa fa-code"></i></div>
+              <div class="service-text">
+                <h3>Development</h3>
+                <p> We convert your json file to readble txt that you can download it and all you need to do is just to click on the link and <br>
+                    then upload your json file, then download the txt file in your device  as simple as that! .<br></p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-icon"><i class="fa fa-diamond"></i></div>
+              <div class="service-text">
+                <h3>Support</h3>
+                <p> We want to make sure that our clients are happy with us and be there if there is any problem in our service.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- having next bar to go next section -->
+    <a class="hello" href="#walk">Next</a>
+
+
+
+<!--sliders start-->
+<style>
+  .mySlides {display:none;}
+  </style>
+  <!--sliders for walkthrough  -->
+  <div id="walk" class="section-padding"><h1 style="text-align:center"><span class="bold">WalkThrough</span></h1></div>
+  <div class="w3-content w3-display-container">
+    <img class="mySlides" src="img/1.png" style="width:100%">
+    <img class="mySlides" src="img\2.png" style="width:100%">
+    <img class="mySlides" src="img\3.png" style="width:100%">
+    <img class="mySlides" src="img/4.png" style="width:100%">
+    <img class="mySlides" src="img/5.png" style="width:100%">
+    <img class="mySlides" src="img\6.png" style="width:100%">
+    <img class="mySlides" src="img\7.png" style="width:100%">
+    <img class="mySlides" src="img/8.png" style="width:100%">
+    <img class="mySlides" src="img/9.png" style="width:100%">
+    <img class="mySlides" src="img/10.png" style="width:100%">
+
+  
+  <!-- button for sliders to go next or previous image -->
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  <!-- it is java script part for functioning and making the slider works properly -->
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+<!--sliders ends-->
+<a class="back2" href="#service">Back</a>
+<a class="next" href="#tutorial">Next</a>
+
+
+
+
+ <!--tutorial-->
+  <div id="tutorial" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="page-title text-center">
+          <h1><span class="bold">Tutorial</span></h1>
+          <!-- video link from youtube -->
+          <iframe width="600" height="400" src="https://www.youtube.com/embed/wI1CWzNtE-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <hr class="pg-titl-bdr-btm"></hr>
+        </div>
+         <!--tutorial ends-->
+
+  <!--CTA2 START-->
+  <!-- banner -->
+  <div class="cta2">
+    <div class="container">
+      <div class="row white text-center">
+        <h3 class="wd75 fnt-24">LU DEVELOPMENT makes life easier for you</h3>
+        <p class="cta-sub-title"></p>
+        
+      </div>
+    </div>
+  </div>
+  <!--CTA2 END-->
+<a class="back" href="#walk">Back</a>
+
+        
+<!-- convertaion downloadable link that leads to the app -->
+  <div id="convert" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="page-title text-center">
+          <h1><span class="bold">Json file Convertor</span></h1>
+          <a href="https://drive.google.com/open?id=1lkcaisTFrOAU2bYd75hpcYw20f9TPRuU">Click here to download LU Development Convertor</a>
+          <hr class="pg-titl-bdr-btm"></hr>
+        </div>
+        <!-- going back or next step -->
+       
+        
+
+  <!--CONTACT START-->
+  <div id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="page-title text-center">
+          <h1><span class="bold">Contact</span></h1>
+          <p>You can contact LU development and we will reach out up to 48 hours later! <br><br> Email:LUdevelopmentgmail.com </p>
+          <p>phone: (786)-777-5432</p>
+          <hr class="pg-titl-bdr-btm"></hr>
+        </div>
+        <a class="back" href="#banner">Back</a>
+        
+        
+        
+
+  <!-- fpr some part java script code was needed in order to run as we wanted website look, and some of those cods are in library 
+  in here we get access to those functions   -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>

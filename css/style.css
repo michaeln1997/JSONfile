@@ -1,0 +1,664 @@
+/*
+    Theme Name: Tempo
+    Theme URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+/**************************************
+link & button
+**************************************/
+.white
+{
+	color:#fff !important; /* color */
+}
+.hello{
+    margin-left: 1070px; /* margin from left 1070px*/
+    background-color:#e43c5c ; /* this is the background color */
+    font-weight: bold; /* this make the font bold */
+    font-size: 20px; /* font size*/
+}
+.back2{
+    margin-left: 125px; /* margin from left 1070px*/
+    background-color:#e43c5c ; /* this is the background color */
+    font-weight: bold;/* this make the font bold */
+    font-size: 20px;  /* font size*/
+}
+.back{
+    background-color:#e43c5c ;/* this is the background color */
+    font-weight: bold;/* this make the font bold */
+    font-size: 20px;  /* font size*/
+}
+.next{
+   margin-left: 900px; /* margin from left 1070px*/
+   background-color:#e43c5c ;/* this is the background color */
+   font-weight: bold;/* this make the font bold */
+   font-size: 20px;  /* font size*/
+}
+
+/**************************************
+Header
+**************************************/
+.section-padding
+{
+	padding: 40px 0px; /*padding*/
+}
+.main-navigation
+{
+    border-bottom: 1px solid #eee; /*border fom the bottom */
+}
+.navbar-default {
+    background-color: #fff; /* this is the background color */
+    border-color: rgba(231, 231, 231, 0.33);  /* border color */
+    padding: 20px 0px; /*padding*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #354242; /* color */
+    background-color: #fff; /* this is the background color */
+}
+.navbar-nav {
+    padding-top: 5px; /*padding from the top*/
+}
+
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	border-bottom: 2px solid #E74C3C; /* border from the bottom */
+    outline: none; /* outline */
+}
+.image{
+    height: 60px; /* height */
+    margin-left: 5px; /* margin from the left */
+}
+.navbar {
+	min-height: inherit; /* minimum height */
+	margin-bottom: 0px; /* margin from the bottom */
+}
+.navbar-brand {
+	height: inherit; /* height */
+	font-family: 'Josefin Slab', serif; /* type of font */
+	font-weight: 700; /* weight of the font*/
+	text-transform: uppercase; /* text transform */
+	padding: 5px; /*padding*/
+    font-size: 42px; /* font size*/
+    margin-top: 5px; /* margin from the top */
+}
+
+.navbar-default .navbar-brand {
+    color: #e43c5c; /* color */
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #354242; /* color */
+	font-weight: 600; /* weight of the font*/
+	text-transform: uppercase; /* text transform */
+	margin: 0px 10px; /* margin */
+	padding-bottom: 5px; /*padding from the bottom*/
+	font-size: 14px; /* font size*/
+}
+.nav > li > a
+{
+	padding: 0px; /*padding*/
+}
+.jumbotron
+{
+    background-color: transparent;/* this is the background color */
+    padding-top: 90px;/*padding from the top*/
+}
+.jumbotron p.big
+{
+    line-height: 21px; /* is the amount of space below a line of text */
+    border-width: 0px; /* border with width*/
+    margin: 0px; /* margin */
+    padding: 0px; /*padding*/
+    letter-spacing: 6px; /* space between the letters */
+    font-size: 15px; /* font size*/
+    color: #fff; /* color */
+    text-transform: uppercase; /* text transform */
+    font-weight: 400; /* weight of the font*/
+    color: #ffffff; /* color */
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    padding-top: 10px; /*padding from the top*/
+}
+a.btn-banner {
+    border: 1px solid #cdcdcd; /* border */
+    padding: 12px 22px; /*padding*/
+    line-height: 0px; /* is the amount of space below a line of text */
+    border-radius: 3px; /* border  radius */
+    font-family: 'Montserrat', sans-serif; /* type of font */
+    font-weight: 400; /* weight of the font*/
+    font-size: 11px; /* font size*/
+    text-transform: uppercase; /* text transform */
+    color: #ffffff; /* color */
+    letter-spacing: 1px; /* space between the letters */
+    display: inline-block; /* display */
+    margin-top: 95px; /* margin from the top */
+}
+a.btn-banner i
+{
+    padding-left: 10px; /*padding from the left*/
+}
+a.btn-banner:hover, a.btn-banner:focus
+{
+    background-color: #e43c5c; /* this is the background color */
+    color: #fff; /* color */ 
+    border-color: #E74C3C; /* border color */
+    display: inline-block; /* display */
+}
+.bold
+{
+    font-weight: bold; /* weight of the font*/
+   
+}
+.bor-btm
+{
+    width: 100px; /* width */
+    height: 1px; /* height */
+    background-color: #ddd; /* this is the background color */
+    margin-bottom: 85px; /* margin from the bottom */
+}
+.jumbotron h1.small
+{
+    line-height: 88px; /* is the amount of space below a line of text */
+    border-width: 0px; /* border with width*/
+    margin: 0px; /* margin */
+    padding: 0px; /*padding*/
+    font-family: 'Open Sans', sans-serif; /* type of font */
+    font-size: 62px; /* font size*/
+    letter-spacing: 6px; /* space between the letters */
+    text-transform: uppercase; /* text transform */
+    font-weight: 400; /* weight of the font*/
+    color: #ffffff; /* color */
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 60px; /*padding from the right */
+    padding-left: 0px; /*padding from the left */
+}
+
+.cta-1, .cta2
+{
+	background-color: #e43c5c; /* this is the background color */
+	padding: 40px 0px; /*padding*/
+}
+p.cta-sub-title
+{
+	font-size: 28px; /* font size*/
+}
+.pg-titl-bdr-btm
+{
+	width: 100px; /* width */
+	height: 3px; /* height */
+	background-color: #e43c5c; /* this is the background color */
+    margin-left: 525px; /* margin from the left */
+}
+.service-box {
+    margin: 0 0 60px; /* margin */
+    display: inline-block; /* display */
+}
+.service-box .service-icon {
+    width: 75px; /* width */
+    height: 75px; /* height */
+    border-radius: 50px;/* border radius */
+    overflow: hidden; /* whether to clip the content or to add scrollbars */
+    border: 1px solid #e9e9e9; /* border */
+    line-height: 75px; /* is the amount of space below a line of text */
+    text-align: center; /* position of the text */
+    color: #e43c5c; /* color */
+    font-size: 30px; /* font size*/
+    margin-right: 23px; /* margin from the right */
+    float: left; /*float*/
+}
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.service-box .service-text {
+    width: 70%; /* width */
+    float: left; /*float*/
+}
+    margin-bottom: 20px; /* margin from the bottom */
+}
+.service-box .service-text h3 {
+    margin: 0 0 20px 0; /* margin */
+    padding: 0 0 0 0; /*padding*/
+    font-size: 18px; /* font size*/ 
+    line-height: 24px; /* is the amount of space below a line of text */
+    color: #333333; /* color */
+    font-weight: 400; /* weight of the font*/
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.page-title
+{
+	margin-bottom: 40px; /* margin from the bottom */
+}
+
+
+
+.fil-btn .active
+{
+	background-color: #e43c5c; /* this is the background color */
+}
+.img-sec, .fig-caption
+{
+	width: 50%; /* width */
+	float: left; /*float*/
+}
+}
+.team-info
+{
+	border: 1px solid rgba(204, 204, 204, 0.33);  /* border */
+	float: left; /*float*/
+}
+	width: 100%; /* width */
+	border-radius: 3px; /* border radius */
+}
+.fig-caption
+{
+	padding: 56px 20px 0px; /*padding*/
+}
+.fig-caption h3
+{
+	font-size: 20px; /* font size*/
+	font-family: 'Josefin Slab', serif; /* type of font */
+}
+.fig-caption p
+{
+	font-size: 14px; /* font size*/
+}
+.team-social li
+{
+	display: inline-block; /* display */
+}
+.team-social li
+{
+	width: 30px; /* width */
+	height: 30px; /* height */
+	line-height: 30px; /* is the amount of space below a line of text */
+	text-align: center; /* position of the text */
+}
+.team-social li a
+{
+	color: #fff; /* color */
+}
+
+.marb-20
+{
+	margin-bottom: 20px; /* margin from the bottom */
+}
+.wd75
+{
+	width: 75%; /* width */
+	float: left; /*float*/
+}
+}
+.cta2 a
+{
+margin-top: 5px; /* margin from the top */
+}
+.fnt-24
+{
+	font-size: 24px; /* font size*/
+}
+
+/* Portfolio */
+#portfolio {
+  background: #fff; /* background */
+  padding: 80px 0; /*padding*/
+}
+
+#portfolio #portfolio-wrapper {
+  padding-right: 15px; /*padding from the right*/
+}
+
+#portfolio #portfolio-flters {
+  padding: 0; /*padding*/
+  margin: 0 0 45px 0; /* margin */
+  list-style: none;
+  text-align: center; /* position of the text */
+}
+
+#portfolio #portfolio-flters li {
+  cursor: pointer; /* cursor */
+  margin: 0 10px; /* margin */
+  display: inline-block; /* display */
+  padding: 10px 22px; /*padding*/
+  font-size: 12px; /* font size*/
+  line-height: 20px; /* is the amount of space below a line of text */
+  color: #666666; /* color */
+  border-radius: 4px; /* border radius*/
+  text-transform: uppercase;  /* text transform */
+  background: #f7f7f7; /* background */
+  margin-bottom: 5px; /* margin from the bottom */
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+  background: #E43C5C; /* background */
+  color: #fff; /* color */
+}
+
+#portfolio .portfolio-item {
+  position: relative; /* position */
+  height: 200px;  /* height */
+  overflow: hidden !important; /* whether to clip the content or to add scrollbars */
+  margin-bottom: 15px; /* margin from the bottom */
+  transition: all 350ms ease;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#portfolio .portfolio-item a {
+  display: block; /* display */
+  margin-right: 15px; /* margin from right */
+}
+
+#portfolio .portfolio-item img {
+  position: relative; /* position */
+  top: 0;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#portfolio .portfolio-item .details {
+  height: 50px; /* height */
+  background: #E43C5C; /* background */
+  position: absolute; /* position */
+  width: 100%; /* width */
+  height: 50px; /* height */
+  bottom: -50px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#portfolio .portfolio-item .details h4 {
+  font-size: 14px; /* font size*/
+  font-weight: 700; /* weight of the font*/
+  color: #fff; /* color */
+  padding: 8px 0 2px 8px; /*padding*/
+  margin: 0; /* margin */ 
+}
+
+#portfolio .portfolio-item .details span {
+  display: block; /* display */
+  color: #fff; /* color */
+  font-size: 13px; /* font size*/
+  padding-left: 8px; /*padding from the left */
+}
+
+#portfolio .portfolio-item:hover .details {
+  bottom: 0; /* from the bottom */
+}
+
+#portfolio .portfolio-item:hover img {
+  top: -30px; /* from the top */
+}
+
+/* Contact Form */
+.text-field-box {
+    background: #fff; /* background */
+    border: 1px solid #ddd; /* border */
+    border-radius: 40px; /* border radius */
+    height: 60px; /* height */
+    line-height: 60px; /* is the amount of space below a line of text */
+    text-align: left; /* position of the text */
+    color: #666; /* color */
+    font-size: 14px; /* font size*/
+    padding: 0 35px; /*padding*/
+    margin-bottom: 30px; /* margin from the bottom */
+    width: 100%; /* width */
+    outline: none; /* outline */
+    appearance: none; /* appearance */
+    -webkit-appearance: none;
+}
+.form-sec textarea {
+    height: 220px; /* height */
+}
+
+.validation {
+    color: red; /* color */
+    display:none; /* display */
+    margin: 0 0 20px; /* margin */
+    font-weight:400; /* weight of the font*/
+    font-size:13px; /* font size*/
+}
+
+#sendmessage {
+    color: green; /* color */
+    border:1px solid green; /* border */
+    display:none; /* display */
+    text-align:center; /* position of the text */
+    padding:15px; /*padding*/
+    font-weight:600; /* weight of the font*/
+    margin-bottom:15px; /* margin from the bottom */
+}
+
+#errormessage {
+    color: red; /* color */
+    display:none; /* display */
+    border:1px solid red; /* border */
+    text-align:center; /* position of the text */
+    padding:15px; /*padding*/
+    font-weight:600; /* weight of the font*/
+    margin-bottom:15px; /* margin from the bottom */
+}
+
+#sendmessage.show, #errormessage.show, .show {
+	display:block; /* display */
+}
+
+.button-medium {
+    background: #e43c5c; /* background */
+    border-radius: 40px; /* border  radius*/
+    color: #ffffff; /* color */
+    cursor: pointer; /* cursor */
+    display: block; /* display */
+    font-family: "Montserrat", sans-serif; /* type of font */
+    font-size: 18px; /* font size*/ 
+    font-weight: 400; /* weight of the font*/
+    height: 48px; /* height */
+    line-height: 48px; /* is the amount of space below a line of text */
+    margin: 0 auto; /* margin */
+    overflow: hidden; /* whether to clip the content or to add scrollbars */
+    text-align: center; /* position of the text */
+    width: 200px; /* width */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* appearance */
+    border: 1px solid #e43c5c;  /* border */
+    box-shadow: none;
+    outline: none; /* outline */
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.footer h3 {
+    color: #fff; /* color */
+    padding-bottom: 30px; /*padding from the bottom*/
+}
+.footer_social ul {
+    list-style: outside none none;
+    margin: 0; /* margin */
+    padding: 0; /*padding*/
+}
+.footer_social ul li {
+    margin: 2px; /* margin */
+    display: inline-block; /* display */
+}
+.footer_social ul li a {
+    background: #2e3537 none repeat scroll 0 0; /* background */
+    border: 1px solid #2e3537; /* border */
+    box-shadow: 0 0 0 7px transparent;
+    color: #aaa; /* color */
+    display: block; /* display */
+    font-size: 14px; /* font size*/
+    height: 40px; /* height */
+    line-height: 21px; /* is the amount of space below a line of text */
+    padding: 9px 13px; /*padding*/
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px; /* width */
+}
+.footer-bottom {
+    background: #09121B; /* background */
+    padding: 20px 0; /*padding*/
+}
+.footer_copyright {
+    color: #fff; /* color */
+    font-size: 16px; /* font size*/
+    margin-bottom: 0; /* margin from the bottom */
+}
+.footer_copyright a {
+    color: #e43c5c; /* color */
+}
+#banner
+{
+    background: url('../img/banner-bg.jpg') no-repeat; /* background */
+    background-size: cover; /* background size */
+    min-height: 500px; /*minimum height*/
+}
+.cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
+{
+    padding: 10px 25px; /*padding*/
+    background-color: #fff;/* this is the background color */
+    border: 0px; /* border */
+}
+/**************************************
+cta
+**************************************/
+/** media queries**/
+@media (min-width: 480px) and (max-width: 1023px) {
+    .img-sec, .fig-caption {
+    width: 100%; /* width */
+    float: left; /*float*/
+}
+.fig-caption {
+    padding: 56px 20px 20px; /*padding*/
+}
+}
+@media (min-width: 451px) and (max-width: 768px) {
+.filter {
+    padding: 5px 18px; /*padding*/
+    margin-bottom: 3px; /* margin from the bottom */
+}
+.wd75
+{
+    width: 100%; /* width */
+}
+.fig-caption {
+    padding: 56px 20px 20px; /*padding*/
+}
+}
+@media (min-width: 301px) and (max-width: 450px) {
+.filter {
+    padding: 3px 14px; /*padding*/
+    margin-bottom: 3px; /* margin from the bottom */
+}
+.jumbotron
+{
+    padding-right: 30px; /*padding from the right*/
+    padding-left: 30px;  /*padding from the left */
+}
+.fig-caption {
+    padding: 13px 20px 0px; /*padding*/
+}
+.team-social li {
+    width: 20px;  /* width */
+    height: 20px; /* height */
+    line-height: 20px; /* is the amount of space below a line of text */
+    text-align: center; /* position of the text */
+}
+.fig-caption h3 {
+    font-size: 19px; /* font size*/
+    font-family: 'Josefin Slab', serif; /* type of font */
+}
+.wd75
+{
+    width: 100%; /* width */
+}
+.service-box .service-text h3
+{
+    padding-top: 15px; /*padding from the top*/
+}
+.jumbotron h1.small {
+    font-size: 44px; /* font size*/
+}
+h1.cta-title {
+    font-size: 30px; /* font size*/
+}
+p.cta-sub-title {
+    font-size: 20px; /* font size*/
+}
+.button-medium {
+    font-size: 15px; /* font size*/
+    height: 40px; /* height */
+    line-height: 40px; /* is the amount of space below a line of text */
+    width: 150px; /* width */
+}
+.jumbotron
+{
+    padding: 90px 0px 0px 20px !important; /*padding*/
+}
+}
+.footer_copyright a
+{
+    text-decoration: none; /* decoration of the text */
+}
+@media (min-width: 100px) and (max-width: 300px) {
+.filter {
+    padding: 3px 14px; /*padding*/
+    margin-bottom: 3px; /* margin from the bottom */
+}
+.img-sec, .fig-caption {
+    width: 100%; /* width */
+    float: left; /*float*/
+}
+}
+.fig-caption {
+    padding: 56px 20px 20px; /*padding*/
+}
+.jumbotron h1.small {
+    font-size: 44px; /* font size*/
+}
+h1.cta-title {
+    font-size: 30px; /* font size*/
+}
+p.cta-sub-title {
+    font-size: 20px; /* font size*/
+}
+
+.jumbotron
+{
+    padding: 90px 0px 0px 20px !important; /*padding*/
+}
+.service-box .service-text h3 {
+    padding-top: 15px; /*padding*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
+    text-align: center; /* position of the text */
+}
+}
+@media (min-width: 300px) and (max-width: 768px) {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
+    text-align: center; /* position of the text */
+    border: 0px; /* border */
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+    border: 0px; /* border */
+}
+}
+/**************************************
+form element
+**************************************/
